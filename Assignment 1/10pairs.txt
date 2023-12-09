@@ -1,0 +1,10 @@
+happy	joyful	0.8
+brave	courageous	0.9
+smart	intelligent	0.9
+small	tiny	0.8
+quick	fast	0.8
+bright	luminous	0.7
+calm	serene	0.8
+kind	gentle	0.9
+strong	powerful	0.9
+loud	noisy	0.8
