@@ -1,0 +1,169 @@
+-------------------------
+Test example: 0
+Sentence: ['She', 'suspects', 'sugar', 'dust', ',', 'which', 'can', 'be', 'volatile', ',', 'may', 'have', 'caused', 'the', 'blast', '.']
+Target: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+Predicted: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O'] 
+
+-------------------------
+Test example: 1
+Sentence: ['About', '14', 'workers', 'were', 'inside', 'the', 'refinery', 'at', 'the', 'time', 'of', 'the', 'blast', '.']
+Target: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+Predicted: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O'] 
+
+-------------------------
+Test example: 2
+Sentence: ['United', 'Nations', 'agencies', 'are', 'appealing', 'for', 'immediate', 'assistance', 'to', 'communities', 'on', 'the', 'West', 'coast', 'affected', 'by', 'South', 'Asia', "'s", 'earthquake-generated', 'tsunami', '.']
+Target: ['B-org', 'I-org', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-gpe', 'O', 'O', 'O', 'B-geo', 'I-geo', 'O', 'O', 'O', 'O']
+Predicted: ['B-org', 'I-org', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-gpe', 'O', 'O', 'O', 'B-geo', 'B-geo', 'O', 'O', 'O', 'O'] 
+
+At 0 ('org', 'United Nations') Extracted.
+At 12 ('gpe', 'Somali') Extracted.
+At 16 ('geo', 'South Asia') Missed.
+At 16 ('geo', 'South') Incorrectly extracted.
+At 17 ('geo', 'Asia') Incorrectly extracted.
+-------------------------
+Test example: 3
+Sentence: ['The', 'appeal', 'was', 'issued', 'Friday', 'by', 'the', 'U.N.', 'Office', 'for', 'the', 'Coordination', 'of', 'Humanitarian', 'Affairs', ',', 'which', 'took', 'part', 'in', 'an', 'aerial', 'assessment', 'of', 'the', 'affected', 'areas', 'in', 'northern', 'Somalia', '.']
+Target: ['O', 'O', 'O', 'O', 'B-tim', 'O', 'O', 'B-org', 'I-org', 'O', 'O', 'B-org', 'I-org', 'I-org', 'I-org', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-geo', 'O']
+Predicted: ['O', 'O', 'O', 'O', 'B-tim', 'O', 'O', 'B-org', 'I-org', 'O', 'O', 'B-org', 'I-org', 'I-org', 'I-org', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-geo', 'O'] 
+
+At 4 ('tim', 'Friday') Extracted.
+At 7 ('org', 'U.N. Office') Extracted.
+At 11 ('org', 'Coordination of Humanitarian Affairs') Extracted.
+At 29 ('geo', 'Somalia') Extracted.
+-------------------------
+Test example: 4
+Sentence: ['Meanwhile', ',', 'the', 'number', 'of', 'dead', 'in', 'Somalia', 'has', 'climbed', 'to', 'at', 'least', '132', 'people', ',', 'although', 'the', 'Associated', 'Press', 'quotes', 'a', 'senior', 'Somali', 'official', 'as', 'putting', 'the', 'number', 'at', '200', '.']
+Target: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-geo', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-org', 'I-org', 'O', 'O', 'O', 'B-gpe', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+Predicted: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-geo', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-org', 'I-org', 'O', 'O', 'O', 'B-gpe', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O'] 
+
+At 7 ('geo', 'Somalia') Extracted.
+At 18 ('org', 'Associated Press') Extracted.
+At 23 ('gpe', 'Somali') Extracted.
+-------------------------
+Test example: 5
+Sentence: ['Many', 'others', 'remain', 'missing', '.']
+Target: ['O', 'O', 'O', 'O', 'O']
+Predicted: ['O', 'O', 'O', 'O', 'O'] 
+
+-------------------------
+Test example: 6
+Sentence: ['The', 'United', 'Nations', 'says', 'it', 'is', 'difficult', 'to', 'get', 'a', 'clear', 'picture', 'of', 'both', 'the', 'number', 'of', 'those', 'killed', 'and', 'the', 'extent', 'of', 'the', 'damage', 'because', 'the', 'region', 'is', 'remote', 'and', 'the', 'conditions', 'are', 'harsh', '.']
+Target: ['O', 'B-org', 'I-org', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+Predicted: ['O', 'B-org', 'I-org', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O'] 
+
+At 1 ('org', 'United Nations') Extracted.
+-------------------------
+Test example: 7
+Sentence: ['The', 'U.N.', 'World', 'Food', 'Program', 'began', 'distributing', 'relief', 'supplies', 'Wednesday', 'in', 'the', 'town', 'of', 'Hafun', 'on', 'the', 'northern', 'coast', 'of', 'Somalia', '.']
+Target: ['O', 'B-org', 'I-org', 'I-org', 'I-org', 'O', 'O', 'O', 'O', 'B-tim', 'O', 'O', 'O', 'O', 'B-geo', 'O', 'O', 'O', 'O', 'O', 'B-geo', 'O']
+Predicted: ['O', 'B-org', 'B-org', 'O', 'O', 'O', 'O', 'O', 'O', 'B-tim', 'O', 'O', 'O', 'O', 'B-geo', 'O', 'O', 'O', 'O', 'O', 'B-geo', 'O'] 
+
+At 1 ('org', 'U.N. World Food Program') Missed.
+At 9 ('tim', 'Wednesday') Extracted.
+At 14 ('geo', 'Hafun') Extracted.
+At 20 ('geo', 'Somalia') Extracted.
+At 1 ('org', 'U.N.') Incorrectly extracted.
+At 2 ('org', 'World') Incorrectly extracted.
+-------------------------
+Test example: 8
+Sentence: ['The', 'tsunami', 'also', 'took', 'lives', 'in', 'Tanzania', ',', 'Seychelles', 'and', 'Kenya', '.']
+Target: ['O', 'O', 'O', 'O', 'O', 'O', 'B-geo', 'O', 'B-geo', 'O', 'B-geo', 'O']
+Predicted: ['O', 'O', 'O', 'O', 'O', 'O', 'B-geo', 'O', 'B-geo', 'O', 'B-geo', 'O'] 
+
+At 6 ('geo', 'Tanzania') Extracted.
+At 8 ('geo', 'Seychelles') Extracted.
+At 10 ('geo', 'Kenya') Extracted.
+-------------------------
+Test example: 9
+Sentence: ['Olympic', 'champion', 'Philipp', 'Schoch', 'of', 'Switzerland', 'and', 'compatriot', 'Ursula', 'Bruhin', 'have', 'won', 'World', 'Cup', 'parallel', 'giant', 'slalom', 'snowboard', 'events', 'in', 'Le', 'Relais', ',', 'Canada', '.']
+Target: ['O', 'O', 'B-per', 'I-per', 'O', 'B-geo', 'O', 'O', 'B-per', 'I-per', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-geo', 'I-geo', 'O', 'B-geo', 'O']
+Predicted: ['O', 'O', 'B-org', 'I-per', 'O', 'B-geo', 'O', 'O', 'B-per', 'B-per', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-per', 'I-org', 'O', 'B-geo', 'O'] 
+
+At 2 ('per', 'Philipp Schoch') Missed.
+At 5 ('geo', 'Switzerland') Extracted.
+At 8 ('per', 'Ursula Bruhin') Missed.
+At 20 ('geo', 'Le Relais') Missed.
+At 23 ('geo', 'Canada') Extracted.
+At 2 ('org', 'Philipp') Incorrectly extracted.
+At 8 ('per', 'Ursula') Incorrectly extracted.
+At 9 ('per', 'Bruhin') Incorrectly extracted.
+At 20 ('per', 'Le') Incorrectly extracted.
+
+
+Evaluation results:
+
+
+Entity type: geo
+Total entities: 11
+Total predicted: 11
+Correctly extracted: 9
+Precision: 81.82 %
+Recall: 81.82 %
+F-measure: 81.82 %
+
+Entity type: gpe
+Total entities: 2
+Total predicted: 2
+Correctly extracted: 2
+Precision: 100.0 %
+Recall: 100.0 %
+F-measure: 100.0 %
+
+Entity type: per
+Total entities: 2
+Total predicted: 3
+Correctly extracted: 0
+Precision: 0.0 %
+Recall: 0.0 %
+F-measure cannot be computed.
+
+Entity type: org
+Total entities: 6
+Total predicted: 8
+Correctly extracted: 5
+Precision: 62.5 %
+Recall: 83.33 %
+F-measure: 71.43 %
+
+Entity type: tim
+Total entities: 2
+Total predicted: 2
+Correctly extracted: 2
+Precision: 100.0 %
+Recall: 100.0 %
+F-measure: 100.0 %
+
+Entity type: art
+Total entities: 0
+Total predicted: 0
+Correctly extracted: 0
+Precision cannot be computed.
+Recall cannot be computed.
+F-measure cannot be computed.
+
+Entity type: nat
+Total entities: 0
+Total predicted: 0
+Correctly extracted: 0
+Precision cannot be computed.
+Recall cannot be computed.
+F-measure cannot be computed.
+
+Entity type: eve
+Total entities: 0
+Total predicted: 0
+Correctly extracted: 0
+Precision cannot be computed.
+Recall cannot be computed.
+F-measure cannot be computed.
+
+
+All entities combined:
+
+Total entities: 23
+Total predicted: 26
+Correctly extracted: 18
+Precision: 69.23 %
+Recall: 78.26 %
+F-measure: 73.47 %
