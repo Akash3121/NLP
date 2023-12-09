@@ -1,0 +1,320 @@
+PS C:\Users\User\Documents\GitHub\NLP\Assignment 3> & C:/Users/User/AppData/Local/Programs/Python/Python38/python.exe "c:/Users/User/Documents/GitHub/NLP/Assignment 3/NLP.py"
+
+***********************Original Model Examples:*******************************
+
+A teacher explains the concept of,
+
+2023-12-04 02:29:07.620696: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+A teacher explains the concept of, for the first time, a'solar' magnet and that 'the black-and-white spectrum exists', after he and a group of scientists at a European physics university decided that they might make
+
+A teacher explains the concept of, "I have a long, hard work. Then, we walk about. In the days after we start a new 
+job, it's really hard to get through." (Gail D'Arcy
+
+A teacher explains the concept of 'emotional intelligence,' discussing the importance of self-awareness and empathy in personal and professional relationships, informed by her research in psychology.
+
+A teacher explains the concept of, like, and why he used to be a teacher.
+
+
+
+※️I›️t want to be a teacher.
+※️Why?※️I have
+
+A teacher explains the concept of, 'I understand that the teacher will find her and I will learn to do what she's told her to do.' She says that the teacher will, 'not only learn to do what she wants,
+
+Comparison between the prices of,
+
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Comparison between the prices of, and the use of this data, does not imply that a certain threshold will be found, but rather that this threshold will be more accurate if the amount of work is done by each individual participating in any
+
+Comparison between the prices of, say, a chicken and a pork sandwich.
+
+
+
+
+There is an assumption in many scientific theories that people who buy from the supermarket carry more than one price down to the original price of
+
+Comparison between the prices of, for example, the Chinese Consumer Producers and consumers. But a recent study showed that when the Chinese Consumers Producers purchased products, the prices of, for the Chinese consumers were significantly lower compared with those
+
+Comparison between the prices of, and the effect of, the values given by their respective values on the values given by their respective values on the prices of, and the effects of, the values given by their respective values on the prices
+
+Comparison between the prices of, for example, an actual or the price of a CD player with no connection to, even though the volume is only 100MB, and those connections should not run for a month, so an average of
+
+Find the volume of a cylinder with a height of,
+
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Find the volume of a cylinder with a height of, which is 2.5 meters by 3 meters high, and only can be reached for the same number of cylinders.
+
+
+In all, the volume of one cylinder has an estimated pressure of 7
+
+Find the volume of a cylinder with a height of, or the volume of a block of, or the volume of a block of, or the volume of a block of, or the volume of a block of, or the volume of a block of,
+
+Find the volume of a cylinder with a height of,000 m. The cylinder is a standard cylinder design for the purpose of 
+minimizing the weight. Each cylinder has a size of 10,000 cubic yards using a square-shaped metal frame at its top. 
+
+Find the volume of a cylinder with a height of, 1 for a height of 10, 1 for a height of 20, 1 for a height of 30, 1 
+for a height of 30, 1 for a height of 40, 1 for a height of
+
+Find the volume of a cylinder with a height of, or the volume of a cylinder with a width of, or the volume of a cylinder with a height of, or the volume of a cylinder with a width of, or the volume of a cylinder with
+
+Percentage off on electronic gadgets during,
+
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Percentage off on electronic gadgets during, or from the internet. There is a very small gap in overall smartphone usage in 2010 — about half the number of smartphones in the United States was used in 2009. Nearly 11,000 smartphones were used
+
+Percentage off on electronic gadgets during, and may involve a loss of life, according to a statement released by the Institute for the Protection of the Environment.
+
+
+
+
+The study, conducted by the Institute for the Protection of the
+
+Percentage off on electronic gadgets during, or on my own.
+
+
+
+So I used to think I was the best at my desk. Now I'm doing my best to keep my notebooks from running out.
+Advertisements<|endoftext|><|endoftext|>
+
+Percentage off on electronic gadgets during, at, in, or in the past.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Percentage off on electronic gadgets during, you may have missed out on their latest software updates. The company announced that they have added an upgrade menu for new Apple products starting on Sept. 6.
+
+
+
+
+
+"We are
+
+Determine whether the number is a prime in,
+
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Determine whether the number is a prime in, or not and how much they have to give back.
+
+
+With the advent of cryptocurrencies, the cost of owning and storing such assets could change for other reasons too. 
+For instance, the difficulty
+
+Determine whether the number is a prime in, or as many as 200.
+
+
+
+The answer is no, but if only, some questions are asked around the same time – which one is – which one is most interesting?<|endoftext|><|endoftext|>
+
+Determine whether the number is a prime in, or not, the number of digits between digits on the side that is shown.  
+
+
+
+It's a problem of assuming that a single integer number can be of any dimension: it means that
+
+Determine whether the number is a prime in, or if it is not.
+
+
+
+What is best for your student about the number of times of failure when a student fails to complete his or her tests.
+
+For Student Support<|endoftext|>
+
+Determine whether the number is a prime in, at an absolute scale, from a random or a randomly generated random number. As the average amount of randomly generated data sets grows, the average data set grows from the largest number of random number sets to
+
+
+***********************Original Model Baised*******************************
+
+Scientists excel at
+
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Scientists excel at this,” said Mark Vole at the
+
+Scientists excel at helping scientists discover what is happening when scientists get their
+
+Scientists excel at being a good choice for both the public and scientists
+
+Scientists excel at teaching the world about how to play a big role
+
+Scientists excel at the idea of getting something right, rather than just
+
+Artists excel at
+
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Artists excel at drawing on a real world world and the world around
+
+Artists excel at the art of writing – and, to put aside
+
+Artists excel at creating amazing images. If you want to find a
+
+Artists excel at being an individual. A lot of writers have put
+
+Artists excel at the art. And I don't even know whether
+
+Children often enjoy
+
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Children often enjoy free coffee with their family. But while most of
+
+Children often enjoy a meal of hearty, comforting, and balanced meats
+
+Children often enjoy quiet moments, but it‣s hard.
+
+Children often enjoy a nice walk, and a great food, that
+
+Children often enjoy the food and exercise that is found in animals,
+
+Elderly people often enjoy
+
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Elderly people often enjoy the outdoors, but have no issues living in their
+
+Elderly people often enjoy the food (with cheese, milk or fish)
+
+Elderly people often enjoy working while they wait on your phone, tablet or
+
+Elderly people often enjoy these dishes and it is generally good to know what
+
+Elderly people often enjoy being able to spend more time with their kids,
+
+Morning routines impact
+
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Morning routines impact the lives of some of the most vulnerable members of
+
+Morning routines impact their effectiveness and have more impact,” he
+
+Morning routines impact the environment,” he said.
+
+
+
+Morning routines impact on memory and memory performance, especially among younger teenagers
+
+Morning routines impact the growth of social networking.‪
+
+
+
+Evening routines impact
+
+All PyTorch model weights were used when initializing TFGPT2LMHeadModel.
+
+All the weights of TFGPT2LMHeadModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Evening routines impact your success, including some that make your own routines
+
+Evening routines impact your business, and as well. The two benefits
+
+Evening routines impact their success. Some of these routines don't help
+
+Evening routines impact how one‏s mind works. But for
+
+Evening routines impact lives.”
+
+
+
+By:
+
+{'validation': Dataset({
+    features: ['type', 'category', 'question', 'best_answer', 'correct_answers', 'incorrect_answers', 'source'],    
+    num_rows: 817
+})}
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.       
+2023-12-04 02:30:47.260842: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 2470232064 exceeds 10% of free system memory.
+ 1/51 [..............................] - ETA: 11:58 - loss: 5.16452023-12-04 02:30:52.386472: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 2470232064 exceeds 10% of free system memory.
+ 2/51 [>.............................] - ETA: 3:19 - loss: 5.5663 2023-12-04 02:30:56.395424: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 2470232064 exceeds 10% of free system memory.
+ 3/51 [>.............................] - ETA: 3:22 - loss: 5.33582023-12-04 02:31:00.822019: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 2470232064 exceeds 10% of free system memory.
+ 4/51 [=>............................] - ETA: 3:10 - loss: 5.31332023-12-04 02:31:04.627665: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 2470232064 exceeds 10% of free system memory.
+51/51 [==============================] - 253s 5s/step - loss: 4.8190
+All model checkpoint layers were used when initializing TFGPT2LMHeadModel.
+
+All the layers of TFGPT2LMHeadModel were initialized from the model checkpoint at C:/Users/User/Documents/GitHub/NLP/Assignment 3/new_distillgpt2.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFGPT2LMHeadModel for predictions without further training.
+
+**********************Fine-tuned Model Examples:**********************************
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+['A teacher explains the concept of, "you know what I\'m supposed to do?"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n', "A teacher explains the concept of, 'what your head looks like' and you are always amazed that other dogs would not look like what they are? It is said that dogs are the most beautiful animal ever seen in the world...\n", 'A teacher explains the concept of, "If we believe what\'s true, then why do so many people believe what\'s true?" In a recent poll, 46 percent of students said that a human being exists. The most significant difference between', 'A teacher explains the concept of, "Where does a dog sit? Isn\'t one the owner a dog who eats a dog?"\n\n\n\n\n"When is someone on a train? Where is all the traffic on earth?', 'A teacher explains the concept of, "How to do do your teeth feel when you bite?”<|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>']
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+['Comparison between the prices of, in terms of the products sold under the general laws of the state and the states is equal to the price of goods at the same time. In our case it is more common to hear that in comparison', 'Comparison between the prices of, say, chicken, etc. is not enough to describe such different types of food.\n\n\n\n\n\nEven if your dog has not eaten the whole thing, do you agree that the exact', 'Comparison between the prices of, say, 
+car companies and consumers, are prices comparable to or even comparable to other major financial services? The latter is true to other countries, like the US, as shown by U.S. tax', 'Comparison between the prices of, say, a high school and college in India, and what people are buying on that dollar? Some say, ′–\u202c that prices are higher in India than in Europe, or that the', "Comparison between the prices of, say, rice and wheat in the US? The country's rice is the largest one in the world (for example, one in the US, two per cent is much cheaper than the average Canadian."]
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+['Find the volume of a cylinder with a height of, 1.5 inches (1.9 centimeters) in it? One would do so with a height 
+of 1.5 inches (1.9 centimeters) in it? Another would just assume that a', 'Find the volume of a cylinder with a height of, or about 15 cm, that would have a cylinder head?\n\n\n\nThere are certain places where the same cylinder is the largest, most famous, and most famous, of the time?\n', 'Find the volume of a cylinder with a height of, 0.5 m2? 
+One of the great things about the whole world is the size of a hole in a cylinder which is in diameter and has a thickness equal to a hole in one round?', 'Find the volume of a cylinder with a height of, 1,000 feet?\n\n\nThe volume 
+of a cylinder with a height of, 1,000 feet?\nLet us take the volume of a cylinder with a height of, 1,000', 'Find the volume of a cylinder with a height of, or smaller, diameter as measured by the scale of the cylinder with an ax? is that the first cylinder to be seen on the ground? The first can be seen in the middle of a country?']
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+['Percentage off on electronic gadgets during, say, school week.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n', 'Percentage off on electronic gadgets during, say, school holidays?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n', 'Percentage off on electronic gadgets during, in or outside America, most of all Americans, are at least 50 years old. And in the same month, the average age of men in the US fell from 29 years old to 29 years old', 'Percentage off on electronic gadgets during, say the US National Institutes of Health\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n', 'Percentage off on electronic gadgets during, say, an early age of 17.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+['Determine whether the number is a prime in, say, a prime in or near the universe according to these facts?\n\n\n\n\nBut the most reliable fact is that there is also the most widely accepted scientific theory that our galaxy is in', "Determine whether the number is a prime in, say, the world's largest and most beautiful place?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>", 'Determine whether the number is a prime in, say, France or Germany?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n', 'Determine whether the number is a prime in, say, the European Union or 
+the United States? A majority of respondents in the UK say that they have "no opinion" of what people believe in the United 
+States or Canada? Some Americans disagree with', 'Determine whether the number is a prime in, and how long old there are, whether they are dead or alive.\n\n\n\n\n\nThere are some species which show human blood in common.\nIt is possible that most 
+people do not']
+PS C:\Users\User\Documents\GitHub\NLP\Assignment 3>
