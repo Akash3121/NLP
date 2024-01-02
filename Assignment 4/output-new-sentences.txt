@@ -1,0 +1,292 @@
+PS C:\Users\user\OneDrive\Documents\NLP Assignment - 4\Akash>  c:; cd 'c:\Users\user\OneDrive\Documents\NLP Assignment - 4\Akash'; & 'C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\user\.vscode\extensions\ms-python.python-2023.22.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '63174' '--' 'c:\Users\user\OneDrive\Documents\NLP Assignment - 4\Akash\A4-New sentences.py' 
+2023-12-14 12:40:45.875671: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2023-12-14 12:40:53.777410: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Some weights of the PyTorch model were not used when initializing the TF 2.0 model TFDistilBertModel: ['vocab_projector.bias', 'vocab_layer_norm.bias', 'vocab_layer_norm.weight', 'vocab_transform.bias', 'vocab_transform.weight']
+- This IS expected if you are initializing TFDistilBertModel from a PyTorch model trained on another task or with another architecture (e.g. initializing a TFBertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFDistilBertModel from a PyTorch model that you expect to be exactly identical (e.g. initializing a TFBertForSequenceClassification model from a BertForSequenceClassification model).
+All the weights of TFDistilBertModel were initialized from the PyTorch model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFDistilBertModel for predictions without further training.
+{'input_ids': <tf.Tensor: shape=(1000, 512), dtype=int32, numpy=
+array([[  101,  6854,  1010, ...,     0,     0,     0],
+       [  101,  2042,  2183, ...,     0,     0,     0],
+       [  101,  1045,  2123, ...,     0,     0,     0],
+       ...,
+       [  101,  4913,  1005, ...,     0,     0,     0],
+       [  101,  1996,  3291, ...,     0,     0,     0],
+       [  101,  2190, 20133, ...,     0,     0,     0]])>, 'attention_mask': <tf.Tensor: shape=(1000, 512), dtype=int32, numpy=
+array([[1, 1, 1, ..., 0, 0, 0],
+       [1, 1, 1, ..., 0, 0, 0],
+       [1, 1, 1, ..., 0, 0, 0],
+       ...,
+       [1, 1, 1, ..., 0, 0, 0],
+       [1, 1, 1, ..., 0, 0, 0],
+       [1, 1, 1, ..., 0, 0, 0]])>}
+{'input_ids': <tf.Tensor: shape=(1000, 512), dtype=int32, numpy=
+array([[  101, 10166,  2023, ...,     0,     0,     0],
+       [  101,  2023,  2173, ...,     0,     0,     0],
+       [  101,  5791,  2025, ...,     0,     0,     0],
+       ...,
+       [  101,  2023,  2001, ...,     0,     0,     0],
+       [  101,  2123,  1005, ...,     0,     0,     0],
+       [  101,  5409,  2173, ...,     0,     0,     0]])>, 'attention_mask': <tf.Tensor: shape=(1000, 512), dtype=int32, numpy=
+array([[1, 1, 1, ..., 0, 0, 0],
+       [1, 1, 1, ..., 0, 0, 0],
+       [1, 1, 1, ..., 0, 0, 0],
+       ...,
+       [1, 1, 1, ..., 0, 0, 0],
+       [1, 1, 1, ..., 0, 0, 0],
+       [1, 1, 1, ..., 0, 0, 0]])>}
+WARNING:tensorflow:From C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\optimizers\__init__.py:309: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+tf.Tensor(
+[[  101  6854  1010 ...     0     0     0]
+ [  101  2042  2183 ...     0     0     0]
+ [  101  1045  2123 ...     0     0     0]
+ ...
+ [  101  4913  1005 ...     0     0     0]
+ [  101  1996  3291 ...     0     0     0]
+ [  101  2190 20133 ...     0     0     0]], shape=(1000, 512), dtype=int32)
+tf.Tensor(
+[[1 1 1 ... 0 0 0]
+ [1 1 1 ... 0 0 0]
+ [1 1 1 ... 0 0 0]
+ ...
+ [1 1 1 ... 0 0 0]
+ [1 1 1 ... 0 0 0]
+ [1 1 1 ... 0 0 0]], shape=(1000, 512), dtype=int32)
+Epoch 1/3
+WARNING:tensorflow:From C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+WARNING:tensorflow:From C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+40/40 [==============================] - 421s 10s/step - loss: 0.5431 - accuracy: 0.7690
+Epoch 2/3
+40/40 [==============================] - 417s 10s/step - loss: 0.3746 - accuracy: 0.8580
+Epoch 3/3
+40/40 [==============================] - 425s 11s/step - loss: 0.3160 - accuracy: 0.8750
+mode summary:
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to
+==================================================================================================
+ token_ids (InputLayer)      [(None, 512)]                0         []
+
+ attention_masks (InputLaye  [(None, 512)]                0         []
+ r)
+
+ tf_distil_bert_model (TFDi  TFBaseModelOutput(last_hid   6636288   ['token_ids[0][0]',
+ stilBertModel)              den_state=(None, 512, 768)   0          'attention_masks[0][0]']
+                             , hidden_states=None, atte
+                             ntions=None)
+
+ tf.__operators__.getitem (  (None, 768)                  0         ['tf_distil_bert_model[0][0]']
+ SlicingOpLambda)
+
+ dense (Dense)               (None, 64)                   49216     ['tf.__operators__.getitem[0][
+                                                                    0]']
+
+ dense_1 (Dense)             (None, 2)                    130       ['dense[0][0]']
+
+==================================================================================================
+Total params: 66412226 (253.34 MB)
+Trainable params: 49346 (192.76 KB)
+Non-trainable params: 66362880 (253.15 MB)
+__________________________________________________________________________________________________
+None
+Accuracy on test data: 0.8849999904632568
+32/32 [==============================] - 314s 10s/step
+c:\Users\user\OneDrive\Documents\NLP Assignment - 4\Akash\A4-New sentences.py:63: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  if(row[2] > row[3]):
+                                                text  actual            POS            NEG  predicted
+0  Wow this is a really nice place. I've never vi...       1   0.0030683926     0.99693155          0
+1  This place is close to my house so I love it. ...       1  0.00020527214      0.9997948          0
+2  Definitely not happy with AMC THEATER PRICES! ...       0      0.9653858    0.034614135          1
+3  Yea I come here often but don't ask for help t...       0      0.9728687     0.02713132          1
+4  totally terrible service. i've been to other b...       0      0.8909597    0.109040305          1
+5  This is an UPDATE on January 21, 2011, to my e...       0      0.9602831    0.039716896          1
+6  Wow! I guess I'm not the only one that will ne...       0     0.96624404     0.03375594          1
+7  We went out to Bucca on Monday night. While th...       0      0.9998161  0.00018392134          1
+8  I went here for a 'nice' steak dinner. however...       0     0.99617875    0.003821248          1
+9  One of my favorite meals is a good steak and a...       1     0.78549224     0.21450779          1
+                                                 text  actual            POS           NEG  predicted
+9   One of my favorite meals is a good steak and a...       1     0.78549224    0.21450779          1
+21  I had the teriyaki chicken, which was pretty g...       0       0.999954    4.5974e-05          0
+23  Love this place! I try to come here as often a...       1  2.0562311e-05     0.9999795          1
+29               Service was bad and food was subpar.       0     0.99999034  9.604635e-06          0
+35  Ok, so I recieved a free car wash from my Car ...       1      0.8481276    0.15187241          1
+41  I liked this place... because it's a local own...       1      0.9805941   0.019405944          1
+42  So, here's the deal... and I kind of feel bad ...       0     0.39967224     0.6003278          0
+44  My wife and myself went to Giant Hamburgers.  ...       1      0.9218077    0.07819231          1
+46  Five star for the experience and the amazing o...       1  3.2592114e-05    0.99996746          1
+47  Well we finally tried this Arizona landmark. E...       1      0.9370513   0.062948704          1
+[{'input_ids': <tf.Tensor: shape=(2, 9), dtype=int32, numpy=
+array([[  101,  1996,  7155,  4146,  1996,  7551,  2777,  2594,   102],
+       [  101,  8669, 23222,  3463,  2008, 24501,  3270,  5669,   102]])>, 'attention_mask': <tf.Tensor: shape=(2, 9), dtype=int32, numpy=
+array([[1, 1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1, 1]])>}, {'input_ids': <tf.Tensor: shape=(2, 9), dtype=int32, numpy=
+array([[  101,  1996, 10026,  4810,  1996,  9841,  2007, 11718,   102],
+       [  101, 10886,  1037, 20560, 17743,  2008, 15936,  1996,   102]])>, 'attention_mask': <tf.Tensor: shape=(2, 9), dtype=int32, numpy=
+array([[1, 1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1, 1]])>}, {'input_ids': <tf.Tensor: shape=(2, 9), dtype=int32, numpy=
+array([[  101,  2044,  3134,  1997,  7547,  1010,  1996,  2136,   102],
+       [  101,  7414,  8489,  1998,  5038,  2013,  2037, 12746,   102]])>, 'attention_mask': <tf.Tensor: shape=(2, 9), dtype=int32, numpy=
+array([[1, 1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1, 1]])>}, {'input_ids': <tf.Tensor: shape=(2, 9), dtype=int32, numpy=
+array([[  101,  1996,  8088,  4110,  1996,  2617,  6669,   102,     0],
+       [  101, 12809,  1037, 25085,  7107,  1999,  2051,  2008,   102]])>, 'attention_mask': <tf.Tensor: shape=(2, 9), dtype=int32, numpy=
+array([[1, 1, 1, 1, 1, 1, 1, 1, 0],
+       [1, 1, 1, 1, 1, 1, 1, 1, 1]])>}, {'input_ids': <tf.Tensor: shape=(2, 9), dtype=int32, numpy=
+array([[  101,  1996,  3166, 17430,  1996,  2345,  3127,  2007,   102],
+       [  101, 16228,  1996,  8680,  6925,  1999,  1037,  2126,   102]])>, 'attention_mask': <tf.Tensor: shape=(2, 9), dtype=int32, numpy=
+array([[1, 1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1, 1]])>}]
+TFBaseModelOutput(last_hidden_state=<tf.Tensor: shape=(2, 9, 768), dtype=float32, numpy=
+array([[[-0.21295887, -0.06688181,  0.05482644, ..., -0.2500778 ,
+          0.36756647,  0.42746043],
+        [-0.22927351, -0.29128477, -0.27892956, ..., -0.15498628,
+          0.8001519 , -0.13920173],
+        [-0.14620385,  0.00480716, -0.1395852 , ..., -0.538441  ,
+          0.47027472,  0.14157343],
+        ...,
+        [-0.01909403,  0.12254752,  0.34276164, ..., -0.50896007,
+          0.28407848,  0.6608619 ],
+        [-0.23779623, -0.30512565,  0.1215387 , ..., -0.26085854,
+          0.2026658 ,  0.58258253],
+        [ 0.8291088 ,  0.04612868, -0.34652984, ...,  0.14960371,
+         -0.4837161 , -0.37423214]],
+
+       [[-0.2589483 , -0.15304975, -0.08905005, ..., -0.18998832,
+          0.21713883,  0.15879548],
+        [-0.11557666, -0.01418639,  0.1528272 , ..., -0.10709259,
+          0.17696986, -0.38229653],
+        [-0.06719017,  0.07093574,  0.00943185, ..., -0.4514892 ,
+         -0.08731842, -0.4859702 ],
+        ...,
+        [-0.01756245,  0.19358245,  0.08385116, ..., -0.6457971 ,
+         -0.11127944, -0.42322963],
+        [-0.35320964, -0.30482644,  0.05675872, ..., -0.39789143,
+          0.18415082, -0.6571771 ],
+        [ 0.7049694 , -0.01913497, -0.12668154, ...,  0.15689807,
+         -0.7688867 , -0.3892504 ]]], dtype=float32)>, hidden_states=None, attentions=None)
+TFBaseModelOutput(last_hidden_state=<tf.Tensor: shape=(2, 9, 768), dtype=float32, numpy=
+array([[[-0.3379614 ,  0.03410194,  0.05705477, ..., -0.13758329,
+          0.16572529,  0.37907684],
+        [-0.22570787, -0.15246353, -0.4412285 , ...,  0.00739221,
+          0.59284127, -0.04458969],
+        [ 0.15678613,  0.13763614,  0.0953998 , ..., -0.36760446,
+          0.30655777, -0.10563412],
+        ...,
+        [-0.0816455 ,  0.29646257, -0.3929698 , ..., -0.3718052 ,
+         -0.04399992,  0.2792702 ],
+        [-0.05125301, -0.22186363, -0.23834312, ..., -0.34761217,
+          0.00245828,  0.12250549],
+        [ 0.67824864,  0.04402956, -0.29514432, ...,  0.24991515,
+         -0.5789314 , -0.11692887]],
+
+       [[-0.19437236,  0.02012306,  0.14593786, ..., -0.19358885,
+          0.38798025,  0.13325123],
+        [-0.22332488,  0.1713827 ,  0.17755464, ..., -0.2663297 ,
+          0.39533904, -0.31417105],
+        [-0.49619204, -0.0486405 ,  0.12044194, ..., -0.5037843 ,
+          0.35006446,  0.18510951],
+        ...,
+        [ 0.13560995,  0.19024862,  0.29641968, ..., -0.36214632,
+          0.32427   , -0.2508998 ],
+        [-0.29041344, -0.47983968,  0.21556783, ..., -0.16893889,
+          0.573844  , -0.6094752 ],
+        [ 0.7258525 ,  0.15483014, -0.11624111, ...,  0.07294961,
+         -0.53890526, -0.19288366]]], dtype=float32)>, hidden_states=None, attentions=None)
+TFBaseModelOutput(last_hidden_state=<tf.Tensor: shape=(2, 9, 768), dtype=float32, numpy=
+array([[[-0.11068346, -0.26468235, -0.05037326, ..., -0.14947058,
+          0.2681881 ,  0.2608394 ],
+        [ 0.14374802, -0.264651  , -0.02408889, ..., -0.3543379 ,
+          0.03591494,  0.16803186],
+        [ 0.27017492, -0.24873233, -0.08677691, ..., -0.38087666,
+         -0.07445517,  0.08561468],
+        ...,
+        [-0.16439614, -0.53077114, -0.44721466, ..., -0.52296823,
+          0.2711293 , -0.09144222],
+        [-0.10127492, -0.44117105, -0.17412364, ..., -0.17004031,
+          0.01672704, -0.31294078],
+        [ 0.1642994 ,  0.07872216,  0.11079893, ...,  0.102166  ,
+         -0.57217574, -0.3537529 ]],
+
+       [[-0.17072198,  0.06589936,  0.07816008, ..., -0.16486773,
+          0.20439532,  0.02501215],
+        [ 0.15260378,  0.10763897, -0.07659449, ..., -0.10852674,
+          0.36545   , -0.05384655],
+        [ 0.26663336,  0.5411641 ,  0.5003483 , ..., -0.14708573,
+          0.08450726, -0.27393648],
+        ...,
+        [ 0.12091222,  0.6440336 ,  0.2283548 , ..., -0.10193083,
+          0.20906119, -0.5198418 ],
+        [ 0.24026266, -0.0522593 , -0.19933903, ..., -0.12288123,
+          0.20929322, -0.5728362 ],
+        [ 0.99729145,  0.21262896, -0.22974874, ..., -0.01793242,
+         -0.56720686, -0.3915048 ]]], dtype=float32)>, hidden_states=None, attentions=None)
+TFBaseModelOutput(last_hidden_state=<tf.Tensor: shape=(2, 9, 768), dtype=float32, numpy=
+array([[[-0.08401367, -0.10863228,  0.08586091, ..., -0.16751151,
+          0.3602425 ,  0.15907219],
+        [ 0.16624115, -0.10799567, -0.06290279, ..., -0.08894008,
+          0.6013352 , -0.4803868 ],
+        [ 0.4267532 ,  0.20336281,  0.2599715 , ..., -0.23912208,
+          0.3401496 , -0.3924266 ],
+        ...,
+        [ 0.2938863 , -0.26098827, -0.20978212, ...,  0.00900585,
+          0.09581703,  0.11931656],
+        [ 1.0188158 ,  0.2091031 , -0.10042558, ...,  0.07295383,
+         -0.6569413 , -0.38254073],
+        [-0.20449011, -0.22085367,  0.11754254, ...,  0.00812713,
+         -0.03054186,  0.42651004]],
+
+       [[-0.32236335, -0.21169008, -0.14520055, ..., -0.09113911,
+          0.30532056,  0.39166763],
+        [ 0.15746136, -0.05065265,  0.02372175, ..., -0.1694825 ,
+         -0.07602762,  0.55393225],
+        [-0.8740134 , -0.20121689,  0.02990363, ..., -0.480261  ,
+         -0.12912071,  0.7382635 ],
+        ...,
+        [ 0.01283588,  0.15769744,  0.34134158, ..., -0.33715016,
+          0.2946003 ,  0.2981702 ],
+        [-0.69989645, -0.36968088, -0.20284992, ...,  0.10081843,
+          0.21416122,  0.02473907],
+        [ 0.8682734 ,  0.06564486, -0.09275625, ..., -0.11614629,
+         -0.6315042 , -0.38540187]]], dtype=float32)>, hidden_states=None, attentions=None)
+TFBaseModelOutput(last_hidden_state=<tf.Tensor: shape=(2, 9, 768), dtype=float32, numpy=
+array([[[-0.20194267, -0.18235338,  0.01207721, ..., -0.02420942,
+          0.25783217,  0.2972587 ],
+        [ 0.05771649, -0.35300976, -0.21203008, ...,  0.21848084,
+          0.7469631 , -0.5631885 ],
+        [-0.37152484,  0.15830456,  0.15012453, ..., -0.1056436 ,
+          0.10365584, -0.62041855],
+        ...,
+        [-0.15412518, -0.26955146, -0.15836143, ...,  0.07802463,
+         -0.18105245, -0.44498968],
+        [-0.72356814, -0.14931856, -0.15728152, ...,  0.31758785,
+          0.03892422, -0.00947968],
+        [ 1.084582  , -0.06064048, -0.4004218 , ...,  0.0911402 ,
+         -0.4974812 , -0.3431761 ]],
+
+       [[-0.36712   , -0.12183854,  0.04358925, ...,  0.00869412,
+          0.4689271 ,  0.32826015],
+        [ 0.13581741,  0.08074357,  0.06369175, ..., -0.06019264,
+          0.42172667, -0.365947  ],
+        [-0.5025602 , -0.10271283,  0.0862948 , ..., -0.01668869,
+          0.34700543,  0.1344927 ],
+        ...,
+        [-0.50374377, -0.03680153,  0.12794334, ..., -0.4322583 ,
+          0.13132928,  0.8954186 ],
+        [-0.5739769 ,  0.00125338,  0.5799335 , ..., -0.19333403,
+          0.643697  ,  0.72703785],
+        [ 1.0106517 ,  0.15154536, -0.12671539, ..., -0.01629175,
+         -0.4992736 , -0.28084096]]], dtype=float32)>, hidden_states=None, attentions=None)
+scientist vs groundbreaking:  0.6051475176452578
+chef vs culinary:  0.5518070839298473
+preparation vs recognition:  0.13281711550481543
+photographer vs instant:  0.40699263559371424
+author vs concluding:  0.45633827062501775
